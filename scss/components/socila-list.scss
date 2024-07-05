@@ -1,0 +1,23 @@
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &__item, img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__hr {
+    width: 2px;
+    height: 64px;
+    background: #878787;
+  }
+
+  &--footer &__hr {
+    height: 32px;
+    background: #fff;
+  }
+}

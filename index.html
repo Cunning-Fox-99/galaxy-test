@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="header">
+
+    <div class="header__nav-wrapper">
+        <div class="header__logo">
+            <img src="images/header/logo.svg" alt="">
+        </div>
+
+        <ul class="header__nav">
+            <li class="header__nav-link header__nav-link--dropdown"><a href="">КАТАЛОГ</a></li>
+            <li class="header__nav-link header__nav-link--menu"><a href="">КЛИЕНТАМ</a>
+                <div class="header__menu-button"></div>
+            </li>
+            <li class="header__nav-link "><a href="">SALE</a></li>
+            <li class="header__nav-link header__nav-link--dropdown"><a href="">КОМПЛЕКТЫ ОДЕЖДЫ</a></li>
+        </ul>
+
+    </div>
+
+    <div class="header__panel">
+
+        <div class="language-switcher">РУС</div>
+
+        <div class="header__icons">
+
+            <a href="" class="header__icon"><img src="./images/header/icon-1.svg" alt=""></a>
+            <a href="" class="header__icon"><img src="./images/header/icon-2.svg" alt=""></a>
+            <a href="" class="header__icon"><img src="./images/header/icon-3.svg" alt=""></a>
+            <a href="" class="header__icon"><img src="./images/header/icon-4.svg" alt=""></a>
+            <a href="" class="header__icon"><img src="./images/header/icon-5.svg" alt=""></a>
+
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="slider">
+
+
+        <div class="slider__slide">
+            <h1 class="slider__slide-title">
+                <span>МУЖСКАЯ</span>
+                <span>КОЛЛЕКЦИЯ</span>
+            </h1>
+
+            <img class="slider__slide-image" src="./images/slider/image-main.png" alt="">
+
+            <div class="slider__slide-info">
+                <p>Распродажа коллекций со скидками до 50%, доставка до вашего склада</p>
+                <a href="" class="slider__button button">ПОДРОБНЕЕ <span class="slider__button-line"></span></a>
+            </div>
+        </div>
+
+        <div class="slider__toggle">
+
+            <div class="slider__toggle-button"><img src="./images/slider/arrow.svg" alt=""></div>
+            <div class="slider__toggle-quantity">02</div>
+            <div class="slider__toggle-button"><img src="./images/slider/arrow.svg" alt=""></div>
+
+        </div>
+
+    </section>
+
+    <section class="card-block container">
+
+        <div class="card-block__top">
+            <h2 class="title">АКЦИИ И СКИДКИ</h2>
+            <a href="" class="card-block__button button">Посмотреть все <span class="button__line"></span></a>
+        </div>
+
+        <div class="card-block__wrapper">
+
+            <div class="card-block__card">
+                <div class="card-block__card-image">
+                    <img src="./images/card-block/image-1.jpg" alt="">
+                </div>
+
+                <div class="card-block__card-info">
+                    <h6>Бесплатая доставка</h6>
+                    <p>Заказов от 500 грн, при условии
+                        полной оплаты на карту</p>
+                    <a href="" class="card-block__card-button button">ПОДРОБНЕЕ <span class="button__line"></span></a>
+                </div>
+            </div>
+
+            <div class="card-block__card">
+                <div class="card-block__card-image">
+                    <img src="./images/card-block/image-2.jpg" alt="">
+                </div>
+
+                <div class="card-block__card-info">
+                    <h6>SALE на футболки</h6>
+                    <p>до -40%</p>
+                    <a href="" class="card-block__card-button button">ПОДРОБНЕЕ <span class="button__line"></span></a>
+                </div>
+            </div>
+
+            <div class="card-block__card">
+                <div class="card-block__card-image">
+                    <img src="./images/card-block/image-3.jpg" alt="">
+                </div>
+
+                <div class="card-block__card-info">
+                    <h6>Новая серия</h6>
+                    <p>Мужски футболки с принтами
+                        в с тиле хайтек со скидкой -15%</p>
+                    <a href="" class="card-block__card-button button">ПОДРОБНЕЕ <span class="button__line"></span></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="card-block container">
+
+        <div class="card-block__top">
+            <h2 class="title">ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</h2>
+            <a href="" class="card-block__button button">ПЕРЕЙТИ В КАТАЛОГ <span class="button__line"></span></a>
+        </div>
+
+        <div class="card-block__wrapper">
+
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/card/new.svg" alt="" class="card__new">
+                    <img src="./images/card/favorite.svg" alt="" class="card__favorite">
+                    <img src="./images/card/image.jpg" class="card__main-image" alt="">
+
+                    <div class="card__image-button card__image-button--left"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                    <div class="card__image-button card__image-button--right"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__info">
+
+                        <div class="card__colors">
+                            <div class="card__color card__color--1"></div>
+                            <div class="card__color card__color--2"></div>
+                            <div class="card__color card__color--3"></div>
+                            <div class="card__color card__color--4"></div>
+                            <div class="card__color card__color--5"></div>
+                        </div>
+
+                        <div class="card__info-wrapper">
+                            <div class="card__stars">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star.svg" alt="">
+                            </div>
+
+                            <div class="card__size">
+                                <span>S</span>
+                                <span class="active">M</span>
+                                <span>L</span>
+                            </div>
+                        </div>
+
+                        <span class="card__text">Футболка мужская Exclusive 22032 </span>
+                        <span class="card__price">245₴</span>
+                    </div>
+
+                    <div class="card__button">ВЫБРАТЬ РАЗМЕР</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/card/new.svg" alt="" class="card__new">
+                    <img src="./images/card/favorite.svg" alt="" class="card__favorite">
+                    <img src="./images/card/image.jpg" class="card__main-image" alt="">
+
+                    <div class="card__image-button card__image-button--left"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                    <div class="card__image-button card__image-button--right"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__info">
+
+                        <div class="card__colors">
+                            <div class="card__color card__color--1"></div>
+                            <div class="card__color card__color--2"></div>
+                            <div class="card__color card__color--3"></div>
+                            <div class="card__color card__color--4"></div>
+                            <div class="card__color card__color--5"></div>
+                        </div>
+
+                        <div class="card__info-wrapper">
+                            <div class="card__stars">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star.svg" alt="">
+                            </div>
+
+                            <div class="card__size">
+                                <span>S</span>
+                                <span class="active">M</span>
+                                <span>L</span>
+                            </div>
+                        </div>
+
+                        <span class="card__text">Футболка мужская Exclusive 22032 </span>
+                        <span class="card__price">245₴</span>
+                    </div>
+
+                    <div class="card__button">ВЫБРАТЬ РАЗМЕР</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/card/new.svg" alt="" class="card__new">
+                    <img src="./images/card/favorite.svg" alt="" class="card__favorite">
+                    <img src="./images/card/image.jpg" class="card__main-image" alt="">
+
+                    <div class="card__image-button card__image-button--left"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                    <div class="card__image-button card__image-button--right"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__info">
+
+                        <div class="card__colors">
+                            <div class="card__color card__color--1"></div>
+                            <div class="card__color card__color--2"></div>
+                            <div class="card__color card__color--3"></div>
+                            <div class="card__color card__color--4"></div>
+                            <div class="card__color card__color--5"></div>
+                        </div>
+
+                        <div class="card__info-wrapper">
+                            <div class="card__stars">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star.svg" alt="">
+                            </div>
+
+                            <div class="card__size">
+                                <span>S</span>
+                                <span class="active">M</span>
+                                <span>L</span>
+                            </div>
+                        </div>
+
+                        <span class="card__text">Футболка мужская Exclusive 22032 </span>
+                        <span class="card__price">245₴</span>
+                    </div>
+
+                    <div class="card__button">ВЫБРАТЬ РАЗМЕР</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/card/new.svg" alt="" class="card__new">
+                    <img src="./images/card/favorite.svg" alt="" class="card__favorite">
+                    <img src="./images/card/image.jpg" class="card__main-image" alt="">
+
+                    <div class="card__image-button card__image-button--left"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                    <div class="card__image-button card__image-button--right"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__info">
+
+                        <div class="card__colors">
+                            <div class="card__color card__color--1"></div>
+                            <div class="card__color card__color--2"></div>
+                            <div class="card__color card__color--3"></div>
+                            <div class="card__color card__color--4"></div>
+                            <div class="card__color card__color--5"></div>
+                        </div>
+
+                        <div class="card__info-wrapper">
+                            <div class="card__stars">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star.svg" alt="">
+                            </div>
+
+                            <div class="card__size">
+                                <span>S</span>
+                                <span class="active">M</span>
+                                <span>L</span>
+                            </div>
+                        </div>
+
+                        <span class="card__text">Футболка мужская Exclusive 22032 </span>
+                        <span class="card__price">245₴</span>
+                    </div>
+
+                    <div class="card__button">ВЫБРАТЬ РАЗМЕР</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/card/new.svg" alt="" class="card__new">
+                    <img src="./images/card/favorite.svg" alt="" class="card__favorite">
+                    <img src="./images/card/image.jpg" class="card__main-image" alt="">
+
+                    <div class="card__image-button card__image-button--left"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                    <div class="card__image-button card__image-button--right"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__info">
+
+                        <div class="card__colors">
+                            <div class="card__color card__color--1"></div>
+                            <div class="card__color card__color--2"></div>
+                            <div class="card__color card__color--3"></div>
+                            <div class="card__color card__color--4"></div>
+                            <div class="card__color card__color--5"></div>
+                        </div>
+
+                        <div class="card__info-wrapper">
+                            <div class="card__stars">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star.svg" alt="">
+                            </div>
+
+                            <div class="card__size">
+                                <span>S</span>
+                                <span class="active">M</span>
+                                <span>L</span>
+                            </div>
+                        </div>
+
+                        <span class="card__text">Футболка мужская Exclusive 22032 </span>
+                        <span class="card__price">245₴</span>
+                    </div>
+
+                    <div class="card__button">ВЫБРАТЬ РАЗМЕР</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/card/new.svg" alt="" class="card__new">
+                    <img src="./images/card/favorite.svg" alt="" class="card__favorite">
+                    <img src="./images/card/image.jpg" class="card__main-image" alt="">
+
+                    <div class="card__image-button card__image-button--left"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                    <div class="card__image-button card__image-button--right"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__info">
+
+                        <div class="card__colors">
+                            <div class="card__color card__color--1"></div>
+                            <div class="card__color card__color--2"></div>
+                            <div class="card__color card__color--3"></div>
+                            <div class="card__color card__color--4"></div>
+                            <div class="card__color card__color--5"></div>
+                        </div>
+
+                        <div class="card__info-wrapper">
+                            <div class="card__stars">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star.svg" alt="">
+                            </div>
+
+                            <div class="card__size">
+                                <span>S</span>
+                                <span class="active">M</span>
+                                <span>L</span>
+                            </div>
+                        </div>
+
+                        <span class="card__text">Футболка мужская Exclusive 22032 </span>
+                        <span class="card__price">245₴</span>
+                    </div>
+
+                    <div class="card__button">ВЫБРАТЬ РАЗМЕР</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/card/new.svg" alt="" class="card__new">
+                    <img src="./images/card/favorite.svg" alt="" class="card__favorite">
+                    <img src="./images/card/image.jpg" class="card__main-image" alt="">
+
+                    <div class="card__image-button card__image-button--left"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                    <div class="card__image-button card__image-button--right"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__info">
+
+                        <div class="card__colors">
+                            <div class="card__color card__color--1"></div>
+                            <div class="card__color card__color--2"></div>
+                            <div class="card__color card__color--3"></div>
+                            <div class="card__color card__color--4"></div>
+                            <div class="card__color card__color--5"></div>
+                        </div>
+
+                        <div class="card__info-wrapper">
+                            <div class="card__stars">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star.svg" alt="">
+                            </div>
+
+                            <div class="card__size">
+                                <span>S</span>
+                                <span class="active">M</span>
+                                <span>L</span>
+                            </div>
+                        </div>
+
+                        <span class="card__text">Футболка мужская Exclusive 22032 </span>
+                        <span class="card__price">245₴</span>
+                    </div>
+
+                    <div class="card__button">ВЫБРАТЬ РАЗМЕР</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/card/new.svg" alt="" class="card__new">
+                    <img src="./images/card/favorite.svg" alt="" class="card__favorite">
+                    <img src="./images/card/image.jpg" class="card__main-image" alt="">
+
+                    <div class="card__image-button card__image-button--left"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                    <div class="card__image-button card__image-button--right"><img src="./images/card/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__info">
+
+                        <div class="card__colors">
+                            <div class="card__color card__color--1"></div>
+                            <div class="card__color card__color--2"></div>
+                            <div class="card__color card__color--3"></div>
+                            <div class="card__color card__color--4"></div>
+                            <div class="card__color card__color--5"></div>
+                        </div>
+
+                        <div class="card__info-wrapper">
+                            <div class="card__stars">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star-fill.svg" alt="">
+                                <img src="./images/card/star.svg" alt="">
+                            </div>
+
+                            <div class="card__size">
+                                <span>S</span>
+                                <span class="active">M</span>
+                                <span>L</span>
+                            </div>
+                        </div>
+
+                        <span class="card__text">Футболка мужская Exclusive 22032 </span>
+                        <span class="card__price">245₴</span>
+                    </div>
+
+                    <div class="card__button">ВЫБРАТЬ РАЗМЕР</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="question">
+
+        <div class="question__wrapper container">
+
+            <div class="question__column">
+
+                <h3 class="question__title title">НАШИ НОВОСТИ</h3>
+
+                <div class="question__items-wrapper">
+                    <div class="question__item">
+                        <h6>Trends time: ключевые тренды в мужской одежде на 2020 год</h6>
+                        <p>Времена меняются, а встречают по-прежнему по одежке… Не удивительно, что мужчинам всегда
+                            хочется одеваться не просто красиво, а еще и модно. Но тренды меняются с такой завидной
+                            скоростью, что порой не успеваешь за ними уследить,...</p>
+                        <a href="" class="question__button button">ЧИТАТЬ <span class="button__line"></span></a>
+                    </div>
+
+                    <div class="question__item">
+                        <h6>Trends time: ключевые тренды в мужской одежде на 2020 год</h6>
+                        <p>Времена меняются, а встречают по-прежнему по одежке… Не удивительно, что мужчинам всегда
+                            хочется одеваться не просто красиво, а еще и модно. Но тренды меняются с такой завидной
+                            скоростью, что порой не успеваешь за ними уследить,...</p>
+                        <a href="" class="question__button button">ЧИТАТЬ <span class="button__line"></span></a>
+                    </div>
+
+                    <div class="question__item">
+                        <h6>Trends time: ключевые тренды в мужской одежде на 2020 год</h6>
+                        <p>Времена меняются, а встречают по-прежнему по одежке… Не удивительно, что мужчинам всегда
+                            хочется одеваться не просто красиво, а еще и модно. Но тренды меняются с такой завидной
+                            скоростью, что порой не успеваешь за ними уследить,...</p>
+                        <a href="" class="question__button button">ЧИТАТЬ <span class="button__line"></span></a>
+                    </div>
+                </div>
+
+                <div class="question__button-big button">БОЛЬШЕ НОВОСТЕЙ
+                    <div class="button__line"></div>
+                </div>
+
+            </div>
+
+            <img src="./images/questions/image.png" alt="" class="question__image">
+
+
+        </div>
+
+    </section>
+
+    <section class="reviews container">
+        <h3 class="reviews__title title">ОТЗЫВЫ</h3>
+
+        <div class="reviews__wrapper">
+
+            <div class="reviews__item">
+                <div class="reviews__stars">
+                    <img src="./images/card/star-fill.svg" alt="">
+                    <img src="./images/card/star-fill.svg" alt="">
+                    <img src="./images/card/star-fill.svg" alt="">
+                    <img src="./images/card/star-fill.svg" alt="">
+                    <img src="./images/card/star-fill.svg" alt="">
+                </div>
+
+                <h5>Лилия Нилова</h5>
+                <p>Времена меняются, а встречают по-прежнему по одежке… Не удивительно, что мужчинам всегда хочется
+                    одеваться не просто красиво, а еще и модно. Но тренды меняются с такой завидной скоростью, что порой
+                    не успеваешь за ними уследить,...</p>
+                <span>29.04.2020</span>
+            </div>
+
+            <div class="reviews__item">
+                <div class="reviews__stars">
+                    <img src="./images/card/star-fill.svg" alt="">
+                    <img src="./images/card/star-fill.svg" alt="">
+                    <img src="./images/card/star-fill.svg" alt="">
+                    <img src="./images/card/star-fill.svg" alt="">
+                    <img src="./images/card/star-fill.svg" alt="">
+                </div>
+
+                <h5>Андрей Бортин</h5>
+                <p>Времена меняются, а встречают по-прежнему по одежке… Не удивительно, что мужчинам всегда хочется
+                    одеваться не просто красиво, а еще и модно. Но тренды меняются с такой завидной скоростью, что порой
+                    не успеваешь за ними уследить,...</p>
+                <span>29.04.2020</span>
+            </div>
+
+        </div>
+
+        <div class="reviews__button button">БОЛЬШЕ ОТЗЫВОВ
+            <div class="button__line"></div>
+        </div>
+
+        <div class="reviews__text">ТМ «HECTOR» - украинский производитель качественной мужской одежды, который более 10
+            лет разрабатывает и выпускает широкий ассортимент моделей с использованием натуральных тканей и фурнитуры.
+            При помощи современного оборудования на изделия наносятся вышивка, принты и другие декоративные элементы.
+            Одним из наиважнейших аспектов нашего производства является
+            контроль качества каждого изделия на всех этапах. Мужскую одежду от Hector можно купить оптом или в розницу.
+            <br>
+            Наши представительства находятся в г. Хмельницкий, Одесса, Харьков. Наш интернет-магазин мужской одежды
+            работает с доставкой по всей территории Украины.
+            <br>
+            В представленных каталогах можно найти: футболки, поло, лонгсливы, свитшоты, регланы, спортивную одежду и
+            многое другое. Частое обновление коллекций, удобная система выбора и подробное описание товара, доступные
+            цены, система скидок, предоставляемых «HECTOR», <span>показать полностью</span></div>
+
+    </section>
+
+    <section class="contact">
+
+        <div class="contact__wrapper container">
+
+            <div class="contact__column">
+
+                <h4 class="contact__title">Подпишись и следи за новыми поступлениями и акциями</h4>
+
+
+                <label class="contact__input"> <img src="./images/contact-block/phone.svg" alt="">
+                    <input type="number" placeholder="+38 (___) ___-___-__" class="input">
+                </label>
+
+                <div class="contact__button">ПОДПИСАТЬСЯ</div>
+
+            </div>
+
+            <div class="contact__column">
+                <h4 class="contact__title">Или подписаться на наши группы и быть в курсе последних акций</h4>
+
+                <ul class="social-list">
+                    <li class="social-list__item"><a href=""><img src="./images/contact-block/icon-1.svg" alt=""></a>
+                    </li>
+                    <li class="social-list__item"><a href=""><img src="./images/contact-block/icon-2.svg" alt=""></a>
+                    </li>
+                    <li class="social-list__item"><a href=""><img src="./images/contact-block/icon-3.svg" alt=""></a>
+                    </li>
+
+                    <li class="social-list__item">
+                        <div class="social-list__hr"></div>
+                    </li>
+
+                    <li class="social-list__item"><a href=""><img src="./images/contact-block/icon-4.svg" alt=""></a>
+                    </li>
+                    <li class="social-list__item"><a href=""><img src="./images/contact-block/icon-5.svg" alt=""></a>
+                    </li>
+                    <li class="social-list__item"><a href=""><img src="./images/contact-block/icon-6.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+
+    <div class="footer__wrapper container">
+
+        <div class="footer__column">
+            <img src="./images/header/logo.svg" alt="">
+        </div>
+
+        <div class="footer__column">
+            <h5 class="footer__title">О КОМПАНИИ</h5>
+
+            <div class="footer__columns">
+                <div class="footer__inner-column">
+                    <a href="" class="footer__link">Доставка и оплата одежды</a>
+                    <a href="" class="footer__link">Политика конфиденциальности</a>
+                </div>
+                <div class="footer__inner-column">
+                    <a href="" class="footer__link">Опт</a>
+                    <a href="" class="footer__link">О Нас</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer__column">
+            <h5 class="footer__title">ЗАКАЗЧИКАМ</h5>
+
+            <div class="footer__columns">
+                <div class="footer__inner-column">
+                    <a href="" class="footer__link">Личный кабинет</a>
+                    <a href="" class="footer__link">История заказов</a>
+                    <a href="" class="footer__link">Закладки</a>
+                </div>
+                <div class="footer__inner-column">
+                    <a href="" class="footer__link">Возврат товара</a>
+                    <a href="" class="footer__link">Обратная связь</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="footer__column">
+
+            <div class="footer__phone-wrapper">
+                <a href="tel:+38 068 346 04 75" class="footer__phone">+38 068 346 04 75</a>
+                <a href="tel: +38 066 400 38 14" class="footer__phone">+38 066 400 38 14</a>
+            </div>
+
+
+            <ul class="social-list social-list--footer">
+                <li class="social-list__item"><a href=""><img src="./images/footer/icon-1.svg" alt=""></a></li>
+                <li class="social-list__item"><a href=""><img src="./images/footer/icon-2.svg" alt=""></a></li>
+                <li class="social-list__item"><a href=""><img src="./images/footer/icon-3.svg" alt=""></a></li>
+
+                <li class="social-list__item">
+                    <div class="social-list__hr"></div>
+                </li>
+
+                <li class="social-list__item"><a href=""><img src="./images/footer/icon-4.svg" alt=""></a></li>
+                <li class="social-list__item"><a href=""><img src="./images/footer/icon-5.svg" alt=""></a></li>
+                <li class="social-list__item"><a href=""><img src="./images/footer/icon-6.svg" alt=""></a></li>
+
+            </ul>
+        </div>
+
+
+    </div>
+
+</footer>
+
+<div class="copyright">
+
+    <div class="copyright__bottom-wrapper container">
+        <div class="copyright__bottom-column">
+            <p>© 2020 HECTOR Все права защищены </p>
+            <div><a href="">Политика конфиденциальности </a></div>
+            <span>|</span>
+            <div><a href="">Условия продажи</a></div>
+        </div>
+
+        <div class="copyright__bottom-column">
+            <span>Design and development</span><img src="./images/footer/bottom.svg" alt="">
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
